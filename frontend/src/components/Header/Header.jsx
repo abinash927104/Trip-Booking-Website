@@ -1,7 +1,7 @@
 import React,{useRef,useEffect} from 'react'
 import {Container,Row,Button} from 'reactstrap'
 import {NavLink,Link} from'react-router-dom'
-import logo from '../../assets/images/logo.png'
+import logo from '../../assets/images/logo.jpeg'
 import './Header.css'
 
 const nav_links=[
@@ -25,7 +25,7 @@ const Header = () => {
 
   const stickyHeaderFunc=()=>{
     window.addEventListener('scroll',()=>{
-      if(document.body.scrollTop >80 || document.documentElement.scrollTop>80){
+      if(document.body.scrollTop >100 || document.documentElement.scrollTop>80){
 
         headerRef.current.classList.add('sticky__header');
       }else{

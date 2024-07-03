@@ -1,12 +1,14 @@
 .header{
     width: 100%;
-    height: 80px;
+ 
     line-height: 80px;
 
 }
 
 .logo img{
+    margin-top: 0%;
     width: 30%;
+    height: 30%;
 }
 .menu{
     margin-bottom: 0;
